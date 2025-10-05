@@ -7,7 +7,12 @@ node_modules/
 .expo/
 dist/
 web-build/
+package-lock.json
+yarn.lock
 expo-env.d.ts
+.env
+build
+*.log
 
 # Native
 .kotlin/
@@ -29,9 +34,12 @@ yarn-error.*
 # macOS
 .DS_Store
 *.pem
+Thumbs.db
 
 # local env files
 .env*.local
+.env
+.env.local
 
 # typescript
 *.tsbuildinfo
